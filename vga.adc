@@ -1,0 +1,59 @@
+set_pin_assignment	{ ADC_CLK }	{ LOCATION = R5; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ ADC_DATA[0] }	{ LOCATION = N5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[1] }	{ LOCATION = T12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[2] }	{ LOCATION = R12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[3] }	{ LOCATION = T9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[4] }	{ LOCATION = R9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[5] }	{ LOCATION = T7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[6] }	{ LOCATION = T8; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[7] }	{ LOCATION = T5; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[8] }	{ LOCATION = T6; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ ADC_DATA[9] }	{ LOCATION = T4; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ DAC_CLK }	{ LOCATION = T15; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[0] }	{ LOCATION = T13; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[1] }	{ LOCATION = M6; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[2] }	{ LOCATION = P5; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[3] }	{ LOCATION = P6; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[4] }	{ LOCATION = N6; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[5] }	{ LOCATION = M7; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[6] }	{ LOCATION = L7; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[7] }	{ LOCATION = R14; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[8] }	{ LOCATION = T14; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ DAC_DATA[9] }	{ LOCATION = R15; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ SW1 }	{ LOCATION = A10; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ VGA_B[0] }	{ LOCATION = D1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_B[1] }	{ LOCATION = M5; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_B[2] }	{ LOCATION = E1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_B[3] }	{ LOCATION = E2; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_B[4] }	{ LOCATION = F1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[0] }	{ LOCATION = F2; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[1] }	{ LOCATION = H2; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[2] }	{ LOCATION = G1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[3] }	{ LOCATION = J1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[4] }	{ LOCATION = H1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_G[5] }	{ LOCATION = K2; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_R[0] }	{ LOCATION = K1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_R[1] }	{ LOCATION = L5; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_R[2] }	{ LOCATION = L1; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_R[3] }	{ LOCATION = M4; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ VGA_R[4] }	{ LOCATION = N3; IOSTANDARD = LVCMOS33; SLEWRATE = FAST; }
+set_pin_assignment	{ clk_1000HZ }	{ LOCATION = F16; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ clk_50m }	{ LOCATION = R7; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[0] }	{ LOCATION = B10; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[1] }	{ LOCATION = A11; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[2] }	{ LOCATION = A12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[3] }	{ LOCATION = B12; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[4] }	{ LOCATION = A13; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ data_hand[5] }	{ LOCATION = A14; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ rst_n }	{ LOCATION = A9; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ vga_clk }	{ LOCATION = B14; }
+set_pin_assignment	{ vga_hsync }	{ LOCATION = M2; IOSTANDARD = LVCMOS33; }
+set_pin_assignment	{ vga_vsync }	{ LOCATION = M3; IOSTANDARD = LVCMOS33; }
+
+
+
+
+
+
+
+

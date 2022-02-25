@@ -1,0 +1,37 @@
+standard
+***Report Model: top***
+
+IO Statistics
+#IO                        51
+  #input                   19
+  #output                  32
+  #inout                    0
+
+Gate Statistics
+#Basic gates              307
+  #and                     37
+  #nand                     0
+  #or                      20
+  #nor                      0
+  #xor                      0
+  #xnor                     0
+  #buf                      0
+  #not                     22
+  #bufif1                   0
+  #MX21                   101
+  #FADD                     0
+  #DFF                    127
+  #LATCH                    0
+#MACRO_ADD                 60
+#MACRO_EQ                  34
+#MACRO_MUX                144
+
+Report Hierarchy Area:
++-----------------------------------------------------+
+|Instance        |Module      |gates  |seq    |macros |
++-----------------------------------------------------+
+|top             |top         |180    |127    |99     |
+|  u_ADDA        |ADDA        |2      |36     |6      |
+|  u_cam_vga_out |Driver      |9      |24     |15     |
+|  u_lcd_display |lcd_display |168    |24     |71     |
++-----------------------------------------------------+

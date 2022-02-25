@@ -1,0 +1,54 @@
+============================================================
+   Tang Dynasty, V5.0.30786
+   Copyright:   Shanghai Anlogic Infotech Co., Ltd.
+                2011 - 2021
+   Executable = D:/English/TD5.0/bin/td.exe
+   Run by =     luowei
+   Run Date =   Wed Feb 23 22:21:07 2022
+
+   Run on =     LAPTOP-90DN52SL
+============================================================
+RUN-001 : GUI based run...
+RUN-1002 : start command "import_device eagle_s20.db -package BG256"
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+Oops! 'Signal Abort' raised. The backtrace:
+[bt] (8)QMetaObject::activate
+[bt] (9)QButtonGroup::buttonClicked
+[bt] (10)QAbstractButton::clicked
+[bt] (11)QAbstractButton::click
+[bt] (14)QMetaObject::activate
+[bt] (18)QMetaObject::activate
+[bt] (19)QAbstractButton::clicked
+[bt] (20)QAbstractButton::click
+[bt] (21)QAbstractButton::mouseReleaseEvent
+[bt] (22)QWidget::event
+[bt] (23)QApplicationPrivate::notify_helper
+[bt] (24)QApplication::notify
+[bt] (25)QCoreApplication::notifyInternal2
+[bt] (26)QApplicationPrivate::sendMouseEvent
+[bt] (27)QSizePolicy::QSizePolicy
+[bt] (28)QSizePolicy::QSizePolicy
+[bt] (29)QApplicationPrivate::notify_helper
+[bt] (30)QApplication::notify
+[bt] (31)QCoreApplication::notifyInternal2
+[bt] (32)QGuiApplicationPrivate::processMouseEvent
+[bt] (33)QWindowSystemInterface::sendWindowSystemEvents
+[bt] (34)QEventDispatcherWin32::processEvents
+[bt] (35)CallWindowProcW
+[bt] (36)DispatchMessageW
+[bt] (37)QEventDispatcherWin32::processEvents
+[bt] (38)qt_plugin_query_metadata
+[bt] (39)QEventLoop::exec
+[bt] (40)QCoreApplication::exec
+[bt] (44)BaseThreadInitThunk
+[bt] (45)RtlUserThreadStart
+

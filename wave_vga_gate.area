@@ -1,0 +1,41 @@
+standard
+***Report Model: top***
+
+IO Statistics
+#IO                        51
+  #input                   19
+  #output                  32
+  #inout                    0
+
+LUT Statistics
+#Total_luts               955
+  #lut4                   213
+  #lut5                    57
+  #lut6                     0
+  #lut5_mx41                0
+  #lut4_alu1b             685
+
+Utilization Statistics
+#lut                      955   out of  19600    4.87%
+#reg                      127   out of  19600    0.65%
+#le                         0
+#dsp                        0   out of     29    0.00%
+#bram                       5   out of     64    7.81%
+  #bram9k                   4
+  #fifo9k                   1
+#bram32k                    0   out of     16    0.00%
+#pad                       51   out of    188   27.13%
+  #ireg                     0
+  #oreg                     0
+  #treg                     0
+#pll                        2   out of      4   50.00%
+
+Report Hierarchy Area:
++---------------------------------------------------------------------+
+|Instance        |Module      |lut    |ripple |seq    |bram   |dsp    |
++---------------------------------------------------------------------+
+|top             |top         |270    |685    |127    |5      |0      |
+|  u_ADDA        |ADDA        |50     |38     |36     |3      |0      |
+|  u_cam_vga_out |Driver      |72     |174    |24     |0      |0      |
+|  u_lcd_display |lcd_display |92     |395    |24     |0      |0      |
++---------------------------------------------------------------------+

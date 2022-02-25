@@ -1,0 +1,53 @@
+<chipwatcher project_name="wave_vga" bit_file="wave_vga.bit" bid_file="wave_vga_inst.bid" chip_name="EG4S20BG256">
+	<instance name="auto_chipwatcher_0" id="0" enabled="yes">
+		<clock clk_name="clk_div[0]" polarity="posedge"/>
+		<config bram_name="auto_chipwatcher_0_logicbram" sample_depth="1024"/>
+		<signal_vec>
+			<trigger_nets>
+				<net name="DAC_DATA[0]"/>
+				<net name="DAC_DATA[1]"/>
+				<net name="DAC_DATA[2]"/>
+				<net name="DAC_DATA[3]"/>
+				<net name="DAC_DATA[4]"/>
+				<net name="DAC_DATA[5]"/>
+				<net name="DAC_DATA[6]"/>
+				<net name="DAC_DATA[7]"/>
+				<net name="DAC_DATA[8]"/>
+				<net name="DAC_DATA[9]"/>
+			</trigger_nets>
+			<data_nets>
+				<net name="DAC_DATA[0]"/>
+				<net name="DAC_DATA[1]"/>
+				<net name="DAC_DATA[2]"/>
+				<net name="DAC_DATA[3]"/>
+				<net name="DAC_DATA[4]"/>
+				<net name="DAC_DATA[5]"/>
+				<net name="DAC_DATA[6]"/>
+				<net name="DAC_DATA[7]"/>
+				<net name="DAC_DATA[8]"/>
+				<net name="DAC_DATA[9]"/>
+			</data_nets>
+			<watcher_nodes>
+				<bus name="DAC_DATA" radix="bin" state="collapse" op="equal">
+					<net name="DAC_DATA[9]"/>
+					<net name="DAC_DATA[8]"/>
+					<net name="DAC_DATA[7]"/>
+					<net name="DAC_DATA[6]"/>
+					<net name="DAC_DATA[5]"/>
+					<net name="DAC_DATA[4]"/>
+					<net name="DAC_DATA[3]"/>
+					<net name="DAC_DATA[2]"/>
+					<net name="DAC_DATA[1]"/>
+					<net name="DAC_DATA[0]"/>
+				</bus>
+			</watcher_nodes>
+		</signal_vec>
+		<trigger name="auto_chipwatcher_0_trigger" position="pre">
+			<condition level="1" enabled="yes" type="basic_and">
+				DAC_DATA[0] == low && DAC_DATA[1] == low && DAC_DATA[2] == low && DAC_DATA[3] == low && DAC_DATA[4] == low && DAC_DATA[5] == low && DAC_DATA[6] == low && DAC_DATA[7] == low && DAC_DATA[8] == low && DAC_DATA[9] == low
+			</condition>
+			<log>
+			</log>
+		</trigger>
+	</instance>
+</chipwatcher>
